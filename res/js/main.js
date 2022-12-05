@@ -6,7 +6,7 @@ const info = document.getElementById("info");
 
 button.onmousedown = () => {
   if(zivoty.innerHTML>0&&zivoty2.innerHTML>0){
-    div.style.left = "200px";
+    div.style.left = "900px";
     zivoty2.innerHTML--;
   }
   if (zivoty2.innerHTML <= 0) {
@@ -16,7 +16,7 @@ button.onmousedown = () => {
   } 
 };
 button.onmouseup = () => {
-  div.style.left = "0px";
+  div.style.left = "250px";
 };
 const interval = setInterval(()=>{
 zivoty.innerHTML--;

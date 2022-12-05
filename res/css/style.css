@@ -1,40 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-image: url(/);
+}
 #div{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     background-color: red;
     position: absolute;
-    left: 0px;
+    left: 250px;
 }
 #div2{
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 250px;
     background-color: blue;
     position: absolute;
-    left:250px;
+    left:1000px;
 }
 #button{
-    height: 50px;
-    height: 50px;
-    
+    height: 100px;
+    width: 100px;
+    left: 700px;
     position: absolute;
-    top:180px
+    top:300px;
+    font-size:30px;
 
 }
 #zivoty{
     position: absolute;
-    top: 120px;
+    top: 300px;
+    left: 300px;
+    font-size: 30px;
 
 }
 #zivoty2{
     position: absolute;
-    top: 120px;
-    left:250px;
+    top: 300px;
+    left:1000px;
+    font-size: 30px;
 
 }
 #info{
     position: absolute;
-    top:220px;
+    top: 450px;
     border:1px solid black;
-    padding: 20px;
-    border-radius: 10px;
+    left: 650px ;
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 50px;
 }
