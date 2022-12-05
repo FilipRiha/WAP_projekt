@@ -29,4 +29,4 @@ if(zivoty.innerHTML<=0){
     clearInterval(interval);
 }
 
-},600)
+},400)
