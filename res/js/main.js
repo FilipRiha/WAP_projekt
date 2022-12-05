@@ -11,6 +11,7 @@ button.onmousedown = () => {
   }
   if (zivoty2.innerHTML <= 0) {
     info.innerText = "zemřel";
+    
     clearInterval(interval);
   } 
 };
@@ -24,4 +25,4 @@ if(zivoty.innerHTML<=0){
     clearInterval(interval);
 }
 
-},500)
+},300)
