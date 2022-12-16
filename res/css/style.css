@@ -1,17 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
 body{
-    background-image: url(/);
+    background-image: url(/res/img/Ims2.jpg);
+    background-size: cover;
+    
 }
 #div{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-color: red;
     position: absolute;
-    left: 250px;
+    left: 350px;
 }
 #div2{
-    width: 250px;
-    height: 250px;
+    width: 150px;
+    height: 150px;
     background-color: blue;
     position: absolute;
     left:1000px;
@@ -23,20 +25,20 @@ body{
     position: absolute;
     top:300px;
     font-size:30px;
-
 }
+#button:hover{
+    background-color: red;
+}
+
 #zivoty{
     position: absolute;
-    top: 300px;
+    top: 250px;
     left: 300px;
     font-size: 30px;
-    
-    
-
 }
 #zivoty2{
     position: absolute;
-    top: 300px;
+    top: 250px;
     left:1000px;
     font-size: 30px;
 
@@ -46,20 +48,46 @@ body{
     top: 450px;
     border:1px solid black;
     left: 650px ;
-    padding: 40px;
+    padding: 20px;
     border-radius: 20px;
     font-size: 50px;
+    background-color: aliceblue;
 }
 
 #level{
     position: absolute;
-    top:450px;
+    top:400px;
     padding: 40px;
+    transition: width 2s, height 2s, transform 2s;
 
 }
+#level:hover {
+    background-color: red;}
+
 #level2{
     position: absolute;
     top:600px;
     padding: 40px;
+    transition: width 2s, height 2s, transform 2s;
     
 }
+#level2:hover {
+    background-color: red;}
+#pit{
+    height: 150px;
+    width: 150px;
+    position:absolute;
+    left:100px;
+} 
+#shop{
+position: absolute;
+top: 450px;
+left:1300px;
+border:1px solid black;
+height: 100px;
+font-size: 20px;
+}   
+#shop:hover{
+    background-color: blue;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');

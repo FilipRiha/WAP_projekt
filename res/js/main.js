@@ -4,15 +4,17 @@ const zivoty = document.getElementById("zivoty");
 const zivoty2 = document.getElementById("zivoty2");
 const info = document.getElementById("info");
 const level =document.getElementById("level");
+const shop=document.getElementById("shop");
+
 
 button.onmousedown = () => {
   if(zivoty.innerHTML>0&&zivoty2.innerHTML>0){
-    div.style.left = "800px";
+    div.style.left = "850px";
     zivoty2.innerHTML--;
   }
   if (zivoty2.innerHTML <= 0) {
     info.innerText = "zemřel";
-    
+    info.style.backgroundColor="red";
     clearInterval(interval);
   } 
 };
@@ -30,3 +32,5 @@ if(zivoty.innerHTML<=0){
 }
 
 },600)
+
+
