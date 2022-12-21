@@ -25,7 +25,7 @@ const interval = setInterval(()=>{
 zivoty.innerHTML--;
 if(zivoty.innerHTML<=0){
     info.innerHTML="zemřel si"
-    info.style.backgroundImage="url(/res/img/pit_eror)";
+    info.style.backgroundImage="url(./res/img/pit_eror)";
     clearInterval(interval);
 }
 
