@@ -1,0 +1,20 @@
+#suzuka{
+    position:absolute;
+    top:250px;
+    left:450px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px ;
+    background-color: aliceblue;
+}
+#monza{
+    position:absolute;
+    top:250px;
+    left:750px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px ;
+    background-color: aliceblue;
+}

@@ -6,6 +6,7 @@ const info = document.getElementById("info");
 const level =document.getElementById("level");
 const shop=document.getElementById("shop");
 
+            
 
 button.onmousedown = () => {
   if(zivoty.innerHTML>0&&zivoty2.innerHTML>0){
@@ -32,5 +33,4 @@ if(zivoty.innerHTML<=0){
 }
 
 },600)
-
 
