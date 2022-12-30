@@ -8,6 +8,9 @@
     padding:20px ;
     background-color: aliceblue;
 }
+#suzuka:hover{
+    background-color: red;
+}
 #monza{
     position:absolute;
     top:150px;
@@ -17,6 +20,9 @@
     border-radius: 10px;
     padding:20px ;
     background-color: aliceblue;
+}
+#monza:hover{
+    background-color: red;
 }
 #spa{
     position:absolute;
@@ -28,6 +34,9 @@
     padding:20px ;
     background-color: aliceblue; 
 }
+#spa:hover{
+    background-color: red;
+}
 #bar{
     position:absolute;
     top:250px;
@@ -37,4 +46,7 @@
     border-radius: 10px;
     padding:20px ;
     background-color: aliceblue; 
+}
+#bar:hover{
+    background-color: red;
 }
