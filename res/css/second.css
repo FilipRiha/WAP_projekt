@@ -1,6 +1,6 @@
 #suzuka{
     position:absolute;
-    top:250px;
+    top:150px;
     left:450px;
     font-size: 30px;
     border: 1px solid black;
@@ -10,11 +10,31 @@
 }
 #monza{
     position:absolute;
-    top:250px;
+    top:150px;
     left:750px;
     font-size: 30px;
     border: 1px solid black;
     border-radius: 10px;
     padding:20px ;
     background-color: aliceblue;
+}
+#spa{
+    position:absolute;
+    top:250px;
+    left:450px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px ;
+    background-color: aliceblue; 
+}
+#bar{
+    position:absolute;
+    top:250px;
+    left: 750px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:20px ;
+    background-color: aliceblue; 
 }
