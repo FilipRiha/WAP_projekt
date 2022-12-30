@@ -7,7 +7,7 @@ const level =document.getElementById("level");
 
 button.onmousedown = () => {
   if(zivoty.innerHTML>0&&zivoty2.innerHTML>0){
-    div.style.left = "800px";
+    div.style.left = "850px";
     zivoty2.innerHTML--;
   }
   if (zivoty2.innerHTML <= 0) {
