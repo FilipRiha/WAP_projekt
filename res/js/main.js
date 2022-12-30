@@ -14,7 +14,7 @@ button.onmousedown = () => {
     zivoty2.innerHTML--;
   }
   if (zivoty2.innerHTML <= 0) {
-    info.innerText = "zemřel";
+    info.innerText = "stihl";
     info.style.backgroundColor="red";
     clearInterval(interval);
   } 
@@ -27,7 +27,7 @@ button.onmouseup = () => {
 const interval = setInterval(()=>{
 zivoty.innerHTML--;
 if(zivoty.innerHTML<=0){
-    info.innerHTML="zemřel si"
+    info.innerHTML="nestihl"
     info.style.backgroundImage="url(./res/img/pit_eror)";
     clearInterval(interval);
 }
