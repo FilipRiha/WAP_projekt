@@ -1,2 +1,2 @@
 # WAP_projekt
-[PLAY](https://FilipRiha.github.io/WAP_projekt/)
+[PLAY] (https://filipriha.github.io/WAP_projekt/)
